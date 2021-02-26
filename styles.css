@@ -173,15 +173,15 @@ main{
     border-radius: 15px 0 0 0;
 }
 .currency-table--container .table__top-right,
-.commission-table--container .table__top-left{
+.commission-table--container .table__top-right{
     border-radius: 0 15px 0 0;
 }
 .currency-table--container .table__button-left,
-.commission-table--container .table__top-left{
+.commission-table--container .table__button-left{
     border-radius: 0 0 0 15px;
 }
 .currency-table--container .table__button-right,
-.commission-table--container .table__top-left{
+.commission-table--container .table__button-right{
     border-radius: 0 0 15px 0;
 }
 .currency-table--container .table__right,
@@ -210,4 +210,26 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.currency-table--date,
+.commission-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.currency-table--date{
+    background-color: var(--soft-orange);
+}
+.commission-table--date{
+    background-color: var(--soft-blue);
+}
+.currency-table--date p,
+.commission-table--date p{
+    font-size:  1.2rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    color: ver(--warm-black);
 }
